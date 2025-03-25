@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1</title>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-ZQRPv-oq.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-DOPLpFvu.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-CAd1OW3I.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-C1gPI-5C.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-BvIXvwch.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
     <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/goit-js-hw-10/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
+      <a class="logo" href="./index.html" aria-label="Site logo">
+        <span class="change-color">Start</span>page
       </a>
       <ul class="nav-list">
         <li class="nav-item">
@@ -31,8 +32,30 @@
 </header>
 
     <main>
-      <div class="container"></div>
+      <div class="container">
+        <input type="text" id="datetime-picker" />
+        <button type="button" data-start>Start</button>
+
+        <div class="timer">
+          <div class="field">
+            <span class="value" data-days>00</span>
+            <span class="label">Days</span>
+          </div>
+          <div class="field">
+            <span class="value" data-hours>00</span>
+            <span class="label">Hours</span>
+          </div>
+          <div class="field">
+            <span class="value" data-minutes>00</span>
+            <span class="label">Minutes</span>
+          </div>
+          <div class="field">
+            <span class="value" data-seconds>00</span>
+            <span class="label">Seconds</span>
+          </div>
+        </div>
+      </div>
+      <a class="back-link" href="./index.html">Go back</a>
     </main>
-    <a class="back-link" href="./index.html">Go back</a>
   </body>
 </html>
