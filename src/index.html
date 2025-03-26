@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./header.html" icon-path="img/sprite.svg#logo" />
-    <main>
-      <div class="container"></div>
-    </main>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo" href="./index.html" aria-label="Site logo">
+            <span class="change-color">Start</span>page
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link {=$highlight-act}" href="./1-timer.html"
+                >Timer</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link {=$highlight-curr}" href="./2-snackbar.html"
+                >Snackbar</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
