@@ -1,0 +1,67 @@
+.form {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+input[type='number'] {
+  max-width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 10px;
+}
+input[type='number']:hover {
+  border: 1px solid #000000;
+}
+
+input[type='number']:focus {
+  border: 1px solid #4e75ff;
+  outline: none;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+fieldset {
+  display: flex;
+  max-width: 360px;
+  gap: 48px;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding: 24px 48px 8px 48px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+fieldset label {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+input[type='radio'] {
+  margin-right: 8px;
+}
+
+button[type='submit'] {
+  display: block;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background: #6c8cff;
+}
